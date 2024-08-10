@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+      
+</head>
+<body>
+   <div id="header">
+</div>
+    <div class="container">
+    <nav>
+        <img src="./logo.jpeg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+          
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+       
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi,i'm <span>Aniqa</span> <br>a web developer from Pakistan</h1>
+    </div>
+   </div> 
+<!------------about me------------->
+<div id="about">
+    
+<div class="about">
+   
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="v.jpg">
+        </div>
+        <div class="about-col-2">
+
+            <h1 class="sub-title1">About Me</h1>
+
+            <p>Hi i'm <span>Aniqa</span> a website developer Unleash the full potential of your online business with my expertise as a full stack developer. With 2 years of experience, I specialize in crafting captivating and custom e-commerce websites like portfolio, fashion, restaurants that drive sales. Let's create a stunning online platform that converts visitors into loyal customers.</p>
+            <div class="tab-titles">
+                
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick = "opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick = "opentab('Education')">Education</p>
+            </div>
+    
+            <div class="tab-contents active-tab"id="Skills">
+                <ul>
+                    <li><span>Web 3.0</span><br>designing web/app interfaces</li>
+                    <li><span>Web Development</span><br>web/app Development</li>
+                    <li><span>App Development</span><br>building android/IOS apps</li>
+                    
+                </ul>
+            </div>
+       
+            <div class="tab-contents"id="Experience">
+                <ul>
+                    <li><span>Skills and Expertise:</span><br>Frontend technologies: React JS, HTML5, CSS3, JavaScript, etc.</li>
+                    <li><span>Work Experience:</span><br>Previous roles and responsibilities: Describe the roles I've held, the projects I've worked on, and the contributions made.</li>
+                    <li><span>2023</span><br>team lead at UMT</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents"id="Education">
+                <ul>
+                    <li><span>2019</span><br>BS from punjab college lahore</li>
+                    <li><span>2023</span><br>internship at UMT</li>
+                    <li><span>2024</span><br>Design a personal app</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-----------services----------->
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <h1>web Design</h1>
+            <p>I do the Website development and I can create modern & responsive website with high quality and a professional look. As every website that represents a business plays a very important role in its growth.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <h1>UI/UX</h1>
+            <p>
+                i will provide you with creative UI UX design for Android and IOS app 
+                For 3+ years we've been creating innovative and engaging experiences with carefully selected and crafted forms of visual communication.
+                </p>
+                <a href="#">Learn more</a>
+        </div>
+        <div>
+            <h1>App Design</h1>
+            <p>
+                i will provide you with creative UI UX design for Android and IOS app 
+                For 3+ years we've been creating innovative and engaging experiences with carefully selected and crafted forms of visual communication.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+</div>
+
+<!----------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="./download.jpg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connect you the tallented people arround the world.Users can share their favorite music with friends and engage in social features like comments and likes.</p>
+               
+            </div>
+        </div>
+        <div class="work">
+            <img src="./download.jpg">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connect you the tallented people arround the world.Users can share their favorite music with friends and engage in social features like comments and likes.</p>
+        
+            </div>
+        </div>
+        <div class="work">
+            <img src="./download.jpg" alt="">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connect you the tallented people arround the world.Users can share their favorite music with friends and engage in social features like comments and likes.</p>
+        
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+<!----------contact me------------>
+<div id="contact">
+<div class="container">
+    <div class="row">
+
+        <div class="contact-left">
+
+            <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i>aniqakhalid2002@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>+923047774584</p>
+               <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+               
+               </div>
+                <a href="images/cv.docx" download="" class="btn">Download CV</a>
+                <div class="contact-right">
+
+                    <form>
+                     <input type="Name" id="Name" placeholder="Your Name"required>
+                     <input type="Email" id="Email" placeholder="Your Email"required>
+                     <textarea id="Message" rows="6" placeholder="Your Message" required></textarea>
+                  <button type="#" class="btn">Submit</button>
+                 </form>
+               
+                 </div>
+
+            
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Aniqa.Made with <i class="fa-solid fa-heart"></i> Easy tutorials</p>
+    </div>
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+ function opentab(tabname){
+       
+       var i;
+       var x = document.getElementsByClassName("tab-contents");
+       for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+       }
+       var y = document.getElementsByClassName("tab-links");
+       for (i = 0; i < y.length; i++) {
+           y[i].className = y[i].className.replace(" active-link", "");
+       }
+       document.getElementById(tabname).style.display = "block";
+       event.currentTarget.classList.add("active-link");
+   }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+
+</body>
+</html>
